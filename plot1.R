@@ -11,4 +11,5 @@ hist(days$Global_active_power, col = "red", main = "Gobal Active Power", xlab =
 
 png(filename = "plot1.png", width = 480, height = 480)
 
+
 dev.off()
