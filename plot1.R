@@ -1,3 +1,5 @@
+#code for plot1
+
 epc <- read.csv("./household_power_consumption.txt", sep = ";")
 
 epc$Date <- as.Date(epc$Date, format = "%d/%m/%Y")
